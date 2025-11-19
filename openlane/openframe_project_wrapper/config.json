@@ -69,6 +69,21 @@
     "GND_NETS": [
         "vssd1"
     ],
+    "DIE_AREA": "0 0 3166.63 4766.630",
+    "CORE_AREA": "40 40 3126.63 4726.630",
+    "RUN_IRDROP_REPORT": 0,
+    "FP_PDN_MACRO_HOOKS": "mprj vccd1 vssd1 vccd1 vssd1",
+    "FP_PDN_CFG": "dir::pdn_cfg.tcl",
+    "FP_DEF_TEMPLATE": "dir::fixed_dont_change/openframe_project_wrapper.def",
+    "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
+    "RUN_LINTER": 0,
+    "RUN_LVS": 0,
+    "MAGIC_DEF_LABELS": 0,
+    "MAGIC_EXT_USE_GDS": true,
+    "// ApplyDEFTemplate": "permissive because of a bug in LibreLane where the power pins have to be at least declared in strict mode.",
+    "FP_TEMPLATE_COPY_POWER_PINS": true,
+    "FP_TEMPLATE_MATCH_MODE": "permissive",
+    "// CustomApplyDEFTemplate": "deprecated, for use with the plugin",
     "FP_TEMPLATE_PINS": [
         "vccd1",
         "vssd1",
@@ -84,15 +99,5 @@
         "vdda2",
         "vddio",
         "vssio"
-    ],
-    "DIE_AREA": "0 0 3166.63 4766.630",
-    "CORE_AREA": "40 40 3126.63 4726.630",
-    "RUN_IRDROP_REPORT": 0,
-    "FP_PDN_MACRO_HOOKS": "mprj vccd1 vssd1 vccd1 vssd1",
-    "FP_PDN_CFG": "dir::pdn_cfg.tcl",
-    "FP_DEF_TEMPLATE": "dir::fixed_dont_change/openframe_project_wrapper.def",
-    "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
-    "RUN_LINTER": 0,
-    "RUN_LVS": 0,
-    "MAGIC_DEF_LABELS": 0
+    ]
 }
