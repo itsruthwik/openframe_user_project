@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/33-openroad-detailedplacement/or_metrics_out.json /nix/store/iah2c26wzpgdvqc1jv2xxg55xq5km74d-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/dpl.tcl

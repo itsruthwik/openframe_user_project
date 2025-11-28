@@ -1,0 +1,463 @@
+Reading OpenROAD database at '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/24-openroad-ioplacement/efpga_core.odb'…
+Reading library file at '/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib'…
+Reading design constraints file at '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/base_user_project_wrapper.sdc'…
+[WARNING STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[INFO]: Creating clock {clk} for mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk with period: 40
+[WARNING STA-0366] port 'gpio_in[30]' not found.
+[WARNING STA-0450] virtual clock clk can not be propagated.
+[WARNING STA-0450] virtual clock jtag_clk can not be propagated.
+[INFO]: Setting clock uncertainity to: 0.25
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 1.5
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[WARNING STA-0366] port 'resetb_l' not found.
+[INFO]: Setting input ports external delay to: 0
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[INFO]: Setting output ports external delay to: 0
+[WARNING STA-0366] port 'gpio_out[*]' not found.
+[WARNING STA-0366] port 'gpio_oeb[*]' not found.
+[WARNING STA-0366] port 'gpio_oeb[*]' not found.
+[WARNING STA-0366] port 'gpio_out[*]' not found.
+[INFO] Setting RC values…
+[INFO] Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO] Setting signal max routing layer to: met4 and clock max routing layer to met4. 
++ global_placement -density 0.3 -timing_driven -routability_driven -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 2914.100 3508.800 ) um
+[INFO GPL-0006] NumInstances:             33290
+[INFO GPL-0007] NumPlaceInstances:         1225
+[INFO GPL-0008] NumFixedInstances:        18818
+[INFO GPL-0009] NumDummyInstances:        13247
+[INFO GPL-0010] NumNets:                  34837
+[INFO GPL-0011] NumPins:                  71025
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 2920.000 3520.000 ) um
+[INFO GPL-0013] CoreBBox: (  5.520 10.880 ) ( 2914.100 3508.800 ) um
+[INFO GPL-0016] CoreArea:            10173980.154 um^2
+[INFO GPL-0017] NonPlaceInstsArea:   9248406.205 um^2
+[INFO GPL-0018] PlaceInstsArea:       16781.094 um^2
+[INFO GPL-0019] Util:                     1.813 %
+[INFO GPL-0020] StdInstsArea:         16781.094 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[InitialPlace]  Iter: 1 CG residual: 0.00070888 HPWL: 23661638164
+[InitialPlace]  Iter: 2 CG residual: 0.00000265 HPWL: 23775137093
+[InitialPlace]  Iter: 3 CG residual: 0.00006348 HPWL: 23661942310
+[InitialPlace]  Iter: 4 CG residual: 0.00001217 HPWL: 23501434677
+[InitialPlace]  Iter: 5 CG residual: 0.00000132 HPWL: 23426448271
+[INFO GPL-0031] FillerInit:NumGCells:     20139
+[INFO GPL-0032] FillerInit:NumGNets:      34837
+[INFO GPL-0033] FillerInit:NumGPins:      71025
+[INFO GPL-0023] TargetDensity:            0.300
+[INFO GPL-0024] AvrgPlaceInstArea:       13.699 um^2
+[INFO GPL-0025] IdealBinArea:            45.663 um^2
+[INFO GPL-0026] IdealBinCnt:             222806
+[INFO GPL-0027] TotalBinArea:        10173980.154 um^2
+[INFO GPL-0028] BinCnt:       256    256
+[INFO GPL-0029] BinSize: ( 11.362 13.664 )
+[INFO GPL-0030] NumBins: 65536
+[NesterovSolve] Iter:    1 overflow: 1.551 HPWL: 661186410
+[NesterovSolve] Iter:   10 overflow: 1.544 HPWL: 698706489
+[NesterovSolve] Iter:   20 overflow: 1.544 HPWL: 704000367
+[NesterovSolve] Iter:   30 overflow: 1.544 HPWL: 705308856
+[NesterovSolve] Iter:   40 overflow: 1.544 HPWL: 704577701
+[NesterovSolve] Iter:   50 overflow: 1.544 HPWL: 704837852
+[NesterovSolve] Iter:   60 overflow: 1.544 HPWL: 704784298
+[NesterovSolve] Iter:   70 overflow: 1.544 HPWL: 704746987
+[NesterovSolve] Iter:   80 overflow: 1.544 HPWL: 704730154
+[NesterovSolve] Iter:   90 overflow: 1.544 HPWL: 704662496
+[NesterovSolve] Iter:  100 overflow: 1.544 HPWL: 704570758
+[NesterovSolve] Iter:  110 overflow: 1.544 HPWL: 704418031
+[NesterovSolve] Iter:  120 overflow: 1.544 HPWL: 704178391
+[NesterovSolve] Iter:  130 overflow: 1.544 HPWL: 703913207
+[NesterovSolve] Iter:  140 overflow: 1.544 HPWL: 704159883
+[NesterovSolve] Iter:  150 overflow: 1.544 HPWL: 705456245
+[NesterovSolve] Iter:  160 overflow: 1.544 HPWL: 707865680
+[NesterovSolve] Iter:  170 overflow: 1.544 HPWL: 711792705
+[NesterovSolve] Iter:  180 overflow: 1.544 HPWL: 716084084
+[NesterovSolve] Iter:  190 overflow: 1.482 HPWL: 718263565
+[NesterovSolve] Iter:  200 overflow: 1.408 HPWL: 718641303
+[NesterovSolve] Iter:  210 overflow: 1.340 HPWL: 717504169
+[NesterovSolve] Iter:  220 overflow: 1.279 HPWL: 713187910
+[NesterovSolve] Iter:  230 overflow: 1.223 HPWL: 709888364
+[NesterovSolve] Iter:  240 overflow: 1.172 HPWL: 705880628
+[NesterovSolve] Iter:  250 overflow: 1.125 HPWL: 700896229
+[NesterovSolve] Iter:  260 overflow: 1.081 HPWL: 693502968
+[NesterovSolve] Iter:  270 overflow: 0.929 HPWL: 696216540
+[NesterovSolve] Iter:  280 overflow: 0.739 HPWL: 702149449
+[NesterovSolve] Iter:  290 overflow: 0.596 HPWL: 705676431
+[NesterovSolve] Snapshot saved at iter = 289
+[NesterovSolve] Iter:  300 overflow: 0.489 HPWL: 706170533
+[NesterovSolve] Iter:  310 overflow: 0.411 HPWL: 707640981
+[NesterovSolve] Iter:  320 overflow: 0.370 HPWL: 708079405
+[NesterovSolve] Iter:  330 overflow: 0.347 HPWL: 709088696
+[NesterovSolve] Iter:  340 overflow: 0.334 HPWL: 710112578
+[NesterovSolve] Iter:  350 overflow: 0.327 HPWL: 711272002
+[NesterovSolve] Iter:  360 overflow: 0.323 HPWL: 712649612
+[NesterovSolve] Iter:  370 overflow: 0.317 HPWL: 714986661
+[NesterovSolve] Iter:  380 overflow: 0.312 HPWL: 718565968
+[NesterovSolve] Iter:  390 overflow: 0.304 HPWL: 720579776
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileBBox: (    0    0 ) ( 6900 6900 ) DBU
+[INFO GPL-0038] TileCnt:     423  510
+[INFO GPL-0040] NumTiles: 215730
+[INFO GPL-0081] TotalRouteOverflow: 555.006922006607
+[INFO GPL-0082] OverflowTileCnt: 150923
+[INFO GPL-0083] 0.5%RC: 1.0572362453214983
+[INFO GPL-0084] 1.0%RC: 1.034189930163234
+[INFO GPL-0085] 2.0%RC: 1.0203545337756568
+[INFO GPL-0086] 5.0%RC: 1.0118721988564283
+[INFO GPL-0087] FinalRC: 1.0457131
+[INFO GPL-0078] FinalRC lower than minRC (1e+30), min RC updated.
+[INFO GPL-0045] InflatedAreaDelta:        0.000 um^2
+[INFO GPL-0046] TargetDensity:            0.300
+[INFO GPL-0049] WhiteSpaceArea:      925573.949 um^2
+[INFO GPL-0050] NesterovInstsArea:    16781.094 um^2
+[INFO GPL-0051] TotalFillerArea:     260891.104 um^2
+[INFO GPL-0052] TotalGCellsArea:     277672.198 um^2
+[INFO GPL-0053] ExpectedGCellsArea:  277672.198 um^2
+[INFO GPL-0054] NewTargetDensity:         0.300
+[INFO GPL-0055] NewWhiteSpaceArea:   925573.949 um^2
+[INFO GPL-0056] MovableArea:         277672.198 um^2
+[INFO GPL-0057] NewNesterovInstArea:  16781.094 um^2
+[INFO GPL-0058] NewTotalFillerArea:  260891.104 um^2
+[INFO GPL-0059] NewTotalGCellsArea:  277672.198 um^2
+[NesterovSolve] Revert back to snapshot coordi
+[NesterovSolve] Iter:  400 overflow: 0.411 HPWL: 705871070
+[NesterovSolve] Iter:  410 overflow: 0.348 HPWL: 706540724
+[NesterovSolve] Iter:  420 overflow: 0.304 HPWL: 707579145
+[INFO GPL-0075] Routability numCall: 2 inflationIterCnt: 2 bloatIterCnt: 0
+[INFO GPL-0036] TileBBox: (    0    0 ) ( 6900 6900 ) DBU
+[INFO GPL-0038] TileCnt:     423  510
+[INFO GPL-0040] NumTiles: 215730
+[INFO GPL-0081] TotalRouteOverflow: 563.7100067138672
+[INFO GPL-0082] OverflowTileCnt: 150922
+[INFO GPL-0083] 0.5%RC: 1.0574465132731878
+[INFO GPL-0084] 1.0%RC: 1.0341917796749225
+[INFO GPL-0085] 2.0%RC: 1.020223774666858
+[INFO GPL-0086] 5.0%RC: 1.0113657824443005
+[INFO GPL-0087] FinalRC: 1.0458192
+[INFO GPL-0079] MinRC (1.0457131) violation occurred, total count: 1.
+[INFO GPL-0045] InflatedAreaDelta:        2.942 um^2
+[INFO GPL-0046] TargetDensity:            0.300
+[INFO GPL-0049] WhiteSpaceArea:      925573.949 um^2
+[INFO GPL-0050] NesterovInstsArea:    16781.094 um^2
+[INFO GPL-0051] TotalFillerArea:     260891.104 um^2
+[INFO GPL-0052] TotalGCellsArea:     277672.198 um^2
+[INFO GPL-0053] ExpectedGCellsArea:  277675.140 um^2
+[INFO GPL-0054] NewTargetDensity:         0.300
+[INFO GPL-0055] NewWhiteSpaceArea:   925573.949 um^2
+[INFO GPL-0056] MovableArea:         277675.147 um^2
+[INFO GPL-0057] NewNesterovInstArea:  16784.036 um^2
+[INFO GPL-0058] NewTotalFillerArea:  260891.111 um^2
+[INFO GPL-0059] NewTotalGCellsArea:  277675.147 um^2
+[NesterovSolve] Revert back to snapshot coordi
+[NesterovSolve] Iter:  430 overflow: 0.361 HPWL: 706030400
+[NesterovSolve] Iter:  440 overflow: 0.310 HPWL: 707131819
+[INFO GPL-0075] Routability numCall: 3 inflationIterCnt: 3 bloatIterCnt: 0
+[INFO GPL-0036] TileBBox: (    0    0 ) ( 6900 6900 ) DBU
+[INFO GPL-0038] TileCnt:     423  510
+[INFO GPL-0040] NumTiles: 215730
+[INFO GPL-0081] TotalRouteOverflow: 564.7466311454773
+[INFO GPL-0082] OverflowTileCnt: 150923
+[INFO GPL-0083] 0.5%RC: 1.0581245949358935
+[INFO GPL-0084] 1.0%RC: 1.0345573082248627
+[INFO GPL-0085] 2.0%RC: 1.0204110792586591
+[INFO GPL-0086] 5.0%RC: 1.0114399037237813
+[INFO GPL-0087] FinalRC: 1.046341
+[INFO GPL-0079] MinRC (1.0457131) violation occurred, total count: 2.
+[INFO GPL-0045] InflatedAreaDelta:        3.811 um^2
+[INFO GPL-0046] TargetDensity:            0.300
+[INFO GPL-0049] WhiteSpaceArea:      925573.949 um^2
+[INFO GPL-0050] NesterovInstsArea:    16784.036 um^2
+[INFO GPL-0051] TotalFillerArea:     260891.111 um^2
+[INFO GPL-0052] TotalGCellsArea:     277675.147 um^2
+[INFO GPL-0053] ExpectedGCellsArea:  277678.958 um^2
+[INFO GPL-0054] NewTargetDensity:         0.300
+[INFO GPL-0055] NewWhiteSpaceArea:   925573.949 um^2
+[INFO GPL-0056] MovableArea:         277678.948 um^2
+[INFO GPL-0057] NewNesterovInstArea:  16787.847 um^2
+[INFO GPL-0058] NewTotalFillerArea:  260891.101 um^2
+[INFO GPL-0059] NewTotalGCellsArea:  277678.948 um^2
+[NesterovSolve] Revert back to snapshot coordi
+[NesterovSolve] Iter:  450 overflow: 0.350 HPWL: 706080227
+[NesterovSolve] Iter:  460 overflow: 0.300 HPWL: 707024331
+[INFO GPL-0075] Routability numCall: 4 inflationIterCnt: 4 bloatIterCnt: 0
+[INFO GPL-0036] TileBBox: (    0    0 ) ( 6900 6900 ) DBU
+[INFO GPL-0038] TileCnt:     423  510
+[INFO GPL-0040] NumTiles: 215730
+[INFO GPL-0081] TotalRouteOverflow: 565.7248460054398
+[INFO GPL-0082] OverflowTileCnt: 150923
+[INFO GPL-0083] 0.5%RC: 1.0587200953852147
+[INFO GPL-0084] 1.0%RC: 1.0348691479048318
+[INFO GPL-0085] 2.0%RC: 1.0205686600708326
+[INFO GPL-0086] 5.0%RC: 1.0115008910504397
+[INFO GPL-0087] FinalRC: 1.0467947
+[INFO GPL-0079] MinRC (1.0457131) violation occurred, total count: 3.
+[INFO GPL-0045] InflatedAreaDelta:        8.981 um^2
+[INFO GPL-0046] TargetDensity:            0.300
+Revert Routability Procedure. Target density higher than max, or minRC max violations.
+[INFO GPL-0080] minRcViolatedCnt: 3
+[INFO GPL-0047] SavedMinRC: 1.0457
+[INFO GPL-0048] SavedTargetDensity: 0.3000
+[NesterovSolve] Revert back to snapshot coordi
+[NesterovSolve] Iter:  470 overflow: 0.321 HPWL: 706081023
+[NesterovSolve] Iter:  480 overflow: 0.278 HPWL: 707362283
+[NesterovSolve] Iter:  490 overflow: 0.249 HPWL: 707738646
+[NesterovSolve] Iter:  500 overflow: 0.234 HPWL: 708341929
+[NesterovSolve] Iter:  510 overflow: 0.224 HPWL: 709300113
+[NesterovSolve] Iter:  520 overflow: 0.217 HPWL: 710284603
+[NesterovSolve] Iter:  530 overflow: 0.217 HPWL: 711525447
+[NesterovSolve] Iter:  540 overflow: 0.216 HPWL: 713019851
+[NesterovSolve] Iter:  550 overflow: 0.214 HPWL: 715076506
+[NesterovSolve] Iter:  560 overflow: 0.212 HPWL: 718088432
+[NesterovSolve] Iter:  570 overflow: 0.209 HPWL: 719426639
+[NesterovSolve] Iter:  580 overflow: 0.206 HPWL: 720646391
+[NesterovSolve] Iter:  590 overflow: 0.202 HPWL: 722610889
+[NesterovSolve] Iter:  600 overflow: 0.197 HPWL: 725579114
+[NesterovSolve] Iter:  610 overflow: 0.191 HPWL: 728927218
+[NesterovSolve] Iter:  620 overflow: 0.186 HPWL: 731857278
+[NesterovSolve] Iter:  630 overflow: 0.182 HPWL: 734557867
+[NesterovSolve] Iter:  640 overflow: 0.178 HPWL: 736894821
+[NesterovSolve] Iter:  650 overflow: 0.174 HPWL: 739293092
+[NesterovSolve] Iter:  660 overflow: 0.170 HPWL: 741624594
+[NesterovSolve] Iter:  670 overflow: 0.167 HPWL: 744212896
+[NesterovSolve] Iter:  680 overflow: 0.165 HPWL: 747336649
+[NesterovSolve] Iter:  690 overflow: 0.162 HPWL: 750575778
+[NesterovSolve] Iter:  700 overflow: 0.159 HPWL: 753770609
+[NesterovSolve] Iter:  710 overflow: 0.156 HPWL: 756838944
+[NesterovSolve] Iter:  720 overflow: 0.154 HPWL: 760256739
+[NesterovSolve] Iter:  730 overflow: 0.151 HPWL: 763916212
+[NesterovSolve] Iter:  740 overflow: 0.148 HPWL: 767381717
+[NesterovSolve] Iter:  750 overflow: 0.146 HPWL: 771216256
+[NesterovSolve] Iter:  760 overflow: 0.144 HPWL: 775126646
+[NesterovSolve] Iter:  770 overflow: 0.142 HPWL: 779125776
+[NesterovSolve] Iter:  780 overflow: 0.140 HPWL: 782842862
+[NesterovSolve] Iter:  790 overflow: 0.138 HPWL: 786519658
+[NesterovSolve] Iter:  800 overflow: 0.136 HPWL: 790399413
+[NesterovSolve] Iter:  810 overflow: 0.134 HPWL: 794411596
+[NesterovSolve] Iter:  820 overflow: 0.132 HPWL: 798214416
+[NesterovSolve] Iter:  830 overflow: 0.131 HPWL: 801954196
+[NesterovSolve] Iter:  840 overflow: 0.129 HPWL: 805204118
+[NesterovSolve] Iter:  850 overflow: 0.128 HPWL: 808813862
+[NesterovSolve] Iter:  860 overflow: 0.126 HPWL: 812353892
+[NesterovSolve] Iter:  870 overflow: 0.124 HPWL: 816146129
+[NesterovSolve] Iter:  880 overflow: 0.123 HPWL: 820219777
+[NesterovSolve] Iter:  890 overflow: 0.121 HPWL: 824253622
+[NesterovSolve] Iter:  900 overflow: 0.120 HPWL: 828199866
+[NesterovSolve] Iter:  910 overflow: 0.119 HPWL: 831919906
+[NesterovSolve] Iter:  920 overflow: 0.118 HPWL: 835511771
+[NesterovSolve] Iter:  930 overflow: 0.116 HPWL: 838860309
+[NesterovSolve] Iter:  940 overflow: 0.115 HPWL: 842063970
+[NesterovSolve] Iter:  950 overflow: 0.114 HPWL: 845253318
+[NesterovSolve] Iter:  960 overflow: 0.113 HPWL: 848411826
+[NesterovSolve] Iter:  970 overflow: 0.112 HPWL: 851772601
+[NesterovSolve] Iter:  980 overflow: 0.110 HPWL: 855585276
+[NesterovSolve] Iter:  990 overflow: 0.109 HPWL: 859093646
+[NesterovSolve] Iter: 1000 overflow: 0.108 HPWL: 862379401
+[NesterovSolve] Iter: 1010 overflow: 0.108 HPWL: 865691067
+[NesterovSolve] Iter: 1020 overflow: 0.106 HPWL: 868754804
+[NesterovSolve] Iter: 1030 overflow: 0.105 HPWL: 871663445
+[NesterovSolve] Iter: 1040 overflow: 0.104 HPWL: 874218495
+[NesterovSolve] Iter: 1050 overflow: 0.103 HPWL: 876702904
+[NesterovSolve] Iter: 1060 overflow: 0.102 HPWL: 879545119
+[NesterovSolve] Iter: 1070 overflow: 0.101 HPWL: 882628511
+[NesterovSolve] Iter: 1080 overflow: 0.100 HPWL: 885599965
+[NesterovSolve] Finished with Overflow: 0.099977
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+eFPGA_top_i.eFPGA_inst.Tile_X0Y1_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y1_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y2_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y2_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y3_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y3_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y4_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y4_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y5_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y5_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y6_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y6_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y7_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y7_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y8_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y8_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y9_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y9_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y10_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y10_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y11_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y11_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y12_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y12_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y13_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y13_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y14_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y14_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X1Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X1Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X2Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X2Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X3Y0_N_term_single2 matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y0_N_term_single2
+eFPGA_top_i.eFPGA_inst.Tile_X3Y1_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y1_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y2_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y2_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y3_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y3_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y4_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y4_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y5_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y5_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y6_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y6_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y7_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y7_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y8_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y8_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y9_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y9_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y10_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y10_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y11_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y11_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y12_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y12_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y13_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y13_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y14_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y14_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y15_S_term_single2 matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y15_S_term_single2
+eFPGA_top_i.eFPGA_inst.Tile_X4Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X4Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X5Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X5Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X6Y0_N_term_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y0_N_term_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y1_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y1_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y3_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y3_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y5_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y5_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y7_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y7_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y9_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y9_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y11_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y11_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y13_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y13_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y15_S_term_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y15_S_term_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X7Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X7Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X8Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X8Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X9Y0_N_term_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y0_N_term_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y1_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y1_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y2_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y2_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y3_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y3_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y4_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y4_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y5_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y5_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y6_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y6_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y7_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y7_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y8_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y8_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y9_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y9_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y10_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y10_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y11_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y11_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y12_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y12_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y13_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y13_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y14_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y14_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y15_S_term_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y15_S_term_RAM_IO
+eFPGA_top_i.Inst_BlockRAM_6 matched with eFPGA_top_i.Inst_BlockRAM_6
+eFPGA_top_i.Inst_BlockRAM_5 matched with eFPGA_top_i.Inst_BlockRAM_5
+eFPGA_top_i.Inst_BlockRAM_4 matched with eFPGA_top_i.Inst_BlockRAM_4
+eFPGA_top_i.Inst_BlockRAM_3 matched with eFPGA_top_i.Inst_BlockRAM_3
+eFPGA_top_i.Inst_BlockRAM_2 matched with eFPGA_top_i.Inst_BlockRAM_2
+eFPGA_top_i.Inst_BlockRAM_1 matched with eFPGA_top_i.Inst_BlockRAM_1
+eFPGA_top_i.Inst_BlockRAM_0 matched with eFPGA_top_i.Inst_BlockRAM_0
+eFPGA_top_i.eFPGA_Config_inst matched with eFPGA_top_i.eFPGA_Config_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                   159 8134702.00
+  Fill cell                              5176   19428.63
+  Tap cell                              13483   16869.93
+  Buffer                                   56     280.27
+  Sequential cell                         448    9529.14
+  Multi-Input combinational cell          721    6971.69
+  Total                                 20043 8187781.66
+Writing OpenROAD database to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/27-openroad-globalplacement/efpga_core.odb'…
+Writing netlist to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/27-openroad-globalplacement/efpga_core.nl.v'…
+Writing powered netlist to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/27-openroad-globalplacement/efpga_core.pnl.v'…
+Writing layout to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/27-openroad-globalplacement/efpga_core.def'…
+Writing timing constraints to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/27-openroad-globalplacement/efpga_core.sdc'…

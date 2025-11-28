@@ -1,0 +1,1182 @@
+467 Lint warnings found.
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+Using 'MACRO_PLACEMENT_CFG' is deprecated. It is recommended to use the new 'MACROS' configuration variable.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[PDN-0110] No via inserted between met4 and met5 at (727.5700, 132.9300) - (730.6700, 135.3550) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (877.5700, 132.9300) - (880.6700, 135.3550) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (952.5700, 3478.0200) - (955.6700, 3478.0500) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (1027.5700, 3478.0200) - (1030.6700, 3478.0500) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (1177.5700, 3478.0200) - (1180.6700, 3478.0500) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (1477.5700, 3482.0650) - (1480.6700, 3484.8500) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (1552.5700, 3483.4600) - (1555.6700, 3484.8500) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (2077.5700, 3359.2650) - (2080.6700, 3361.0300) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (2227.5700, 132.9300) - (2230.6700, 133.3150) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (727.5700, 132.9300) - (730.6700, 135.3550) on vccd1
+[PDN-0110] No via inserted between met4 and met5 at (877.5700, 132.9300) - (880.6700, 135.3550) on vccd1
+[PSM-0038] Unconnected node on net vssd1 at location (289.530um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (342.545um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (395.560um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (448.575um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (516.030um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (569.045um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (622.060um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (675.075um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (979.030um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1032.045um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1085.060um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1138.075um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1205.530um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1258.545um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1311.560um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1364.575um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1683.530um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1736.545um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1789.560um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1842.575um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1912.030um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (1965.045um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (2018.060um, 134.480um), layer: met4.
+[PSM-0038] Unconnected node on net vssd1 at location (2071.075um, 134.480um), layer: met4.
+[PSM-0039] Unconnected instance eFPGA_top_i.eFPGA_inst.Tile_X1Y15_S_term_single/vssd1 at location (369.052um, 134.480um).
+[PSM-0039] Unconnected instance eFPGA_top_i.eFPGA_inst.Tile_X2Y15_S_term_single/vssd1 at location (595.552um, 134.480um).
+[PSM-0039] Unconnected instance eFPGA_top_i.eFPGA_inst.Tile_X4Y15_S_term_single/vssd1 at location (1058.552um, 134.480um).
+[PSM-0039] Unconnected instance eFPGA_top_i.eFPGA_inst.Tile_X5Y15_S_term_single/vssd1 at location (1285.052um, 134.480um).
+[PSM-0039] Unconnected instance eFPGA_top_i.eFPGA_inst.Tile_X7Y15_S_term_single/vssd1 at location (1763.052um, 134.480um).
+[PSM-0039] Unconnected instance eFPGA_top_i.eFPGA_inst.Tile_X8Y15_S_term_single/vssd1 at location (1991.552um, 134.480um).
+Grid check for vssd1 failed: PSM-0069
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+2527 power grid violations (as reported by OpenROAD PSM- you may ignore these if LVS passes) found.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[RSZ-0020] found 2 floating nets.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[CTS-0083] No clock nets have been found.
+[CTS-0082] No valid clock nets in the design.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[GRT-0097] No global routing found for nets.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[GRT-0097] No global routing found for nets.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[GRT-0115] Global routing finished with overflow.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[GRT-0115] Global routing finished with overflow.
+[GRT-0230] Congestion iterations cannot increase overflow, reached the maximum number of times the total overflow can be increased.
+[GRT-0115] Global routing finished with overflow.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib line 1, library BlockRAM_1KB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib line 1, library DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib line 1, library LUT4AB already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib line 1, library N_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib line 1, library N_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib line 1, library N_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib line 1, library N_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib line 1, library RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib line 1, library RegFile already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib line 1, library S_term_DSP already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib line 1, library S_term_RAM_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib line 1, library S_term_single already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib line 1, library S_term_single2 already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib line 1, library W_IO already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib line 1, library eFPGA_Config already exists.
+[STA-1140] /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib line 1, library sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib already exists.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[GRT-0230] Congestion iterations cannot increase overflow, reached the maximum number of times the total overflow can be increased.
+[GRT-0115] Global routing finished with overflow.
+[GRT-0230] Congestion iterations cannot increase overflow, reached the maximum number of times the total overflow can be increased.
+[GRT-0115] Global routing finished with overflow.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/C0
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/C1
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/C2
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/C3
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/C4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/C5
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/clk
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/rd_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_0/wr_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/C0
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/C1
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/C2
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/C3
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/C4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/C5
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/clk
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/rd_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_1/wr_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/C0
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/C1
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/C2
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/C3
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/C4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/C5
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/clk
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/rd_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_2/wr_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/C0
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/C1
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/C2
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/C3
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/C4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/C5
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/clk
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/rd_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_3/wr_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/C0
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/C1
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/C2
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/C3
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/C4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/C5
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/clk
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/rd_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_4/wr_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/C0
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/C1
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/C2
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/C3
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/C4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/C5
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/clk
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/rd_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_5/wr_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/C0
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/C1
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/C2
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/C3
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/C4
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/C5
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/clk
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/rd_data[9]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_addr[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[0]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[10]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[11]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[12]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[13]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[14]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[15]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[16]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[17]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[18]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[19]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[1]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[20]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[21]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[22]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[23]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[24]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[25]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[26]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[27]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[28]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[29]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[2]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[30]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[31]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[3]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[4]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[5]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[6]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[7]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[8]
+[DRT-0419] No routing tracks pass through the center of Term eFPGA_top_i.Inst_BlockRAM_6/wr_data[9]
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[STA-0366] port 'gpio_in[30]' not found.
+[STA-0450] virtual clock clk can not be propagated.
+[STA-0450] virtual clock jtag_clk can not be propagated.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0419] transition time can not be specified for virtual clocks.
+[STA-0366] port 'resetb_l' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_in[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_oeb[*]' not found.
+[STA-0366] port 'gpio_out[*]' not found.
+Not converting the feedback to the KLayout database format: 14450 > MAGIC_FEEDBACK_CONVERSION_THRESHOLD (10000). You may manually increase the threshold, but it might take forever.
+Max Slew violations found in the following corners:
+* max_ff_n40C_1v95
+* max_ss_100C_1v60
+* max_tt_025C_1v80
+* min_ff_n40C_1v95
+* min_ss_100C_1v60
+* min_tt_025C_1v80
+* nom_ff_n40C_1v95
+* nom_ss_100C_1v60
+* nom_tt_025C_1v80
+Max Cap violations found in the following corners:
+* max_ss_100C_1v60
+* max_tt_025C_1v80
+* min_ss_100C_1v60
+* nom_ss_100C_1v60
+* nom_tt_025C_1v80
+magic__drc_error__count not reported. Magic.DRC may have been skipped.

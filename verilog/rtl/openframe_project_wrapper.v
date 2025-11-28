@@ -103,24 +103,45 @@ module openframe_project_wrapper (
     input  [`OPENFRAME_IO_PADS-1:0] gpio_loopback_zero
 );
 
-	user_proj_timer mprj (
-`ifdef USE_POWER_PINS
-		.vccd1(vccd1),
-		.vssd1(vssd1),
-`endif
-        .wb_clk_i(gpio_in[0]),
-        .wb_rst_i(gpio_in[1]),
-        .io_in(gpio_in[12:2]),
-        .io_out(gpio_out[12:2]),
-        .io_oeb(gpio_oeb[12:2])
+// 	user_proj_timer fpga_core_inst (
+// `ifdef USE_POWER_PINS
+// 		.vccd1(vccd1),
+// 		.vssd1(vssd1),
+// `endif
+//         .wb_clk_i(gpio_in[0]),
+//         .wb_rst_i(gpio_in[1]),
+//         .io_in(gpio_in[12:2]),
+//         .io_out(gpio_out[12:2]),
+//         .io_oeb(gpio_oeb[12:2])
 
-	    /* NOTE:  Openframe signals not used in picosoc:	*/
-	    /* porb_h:    3.3V domain signal			*/
-	    /* resetb_h:  3.3V domain signal			*/
-	    /* gpio_in_h: 3.3V domain signals			*/
-	    /* analog_io: analog signals			*/
-	    /* analog_noesd_io: analog signals			*/
-	);
+// 	    /* NOTE:  Openframe signals not used in picosoc:	*/
+// 	    /* porb_h:    3.3V domain signal			*/
+// 	    /* resetb_h:  3.3V domain signal			*/
+// 	    /* gpio_in_h: 3.3V domain signals			*/
+// 	    /* analog_io: analog signals			*/
+// 	    /* analog_noesd_io: analog signals			*/
+// 	);
+
+
+    fpga_core fpga_core_inst(
+        `ifdef USE_POWER_PINS
+            .VPWR(vccd1),	
+            .VGND(vssd1),	
+        `endif
+        .prog_clk(gpio_in[0]),
+        .test_enable(gpio_in[1]),
+        .clk(gpio_in[2]),
+        .isol_n(gpio_in[3]),
+        .gfpga_pad_io_soc_in(gpio_in[33:4]),
+        .gfpga_pad_io_soc_out(gpio_out[33:4]),
+        .gfpga_pad_io_soc_dir(gpio_oeb[33:4]),
+        .ccff_head(gpio_in[34]),
+        .ccff_tail(gpio_out[35]),
+        .prog_reset(gpio_in[36]),
+        .reset(gpio_in[37]),
+        .sc_head(gpio_in[38]),
+        .sc_tail(gpio_out[39])
+    );
 
 	/* All analog enable/select/polarity and holdover bits	*/
 	/* will not be handled in the picosoc module.  Tie	*/

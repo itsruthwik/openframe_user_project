@@ -1,0 +1,189 @@
+
+Magic 8.3 revision 489 - Compiled on Thu Aug 22 13:45:15 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/nix/store/iah2c26wzpgdvqc1jv2xxg55xq5km74d-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/magic/wrapper.tcl" from command line.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 82 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 83 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 116 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 118 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 119 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 125 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 126 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 127 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 160 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 171 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 172 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 173 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 213 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 214 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 215 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 255 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 256 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 257 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 294 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 801 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef.
+This action cannot be undone.
+LEF read: Processed 56536 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef.
+This action cannot be undone.
+LEF read: Processed 582 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/BlockRAM_1KB.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/BlockRAM_1KB.lef.
+This action cannot be undone.
+LEF read: Processed 2359 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/DSP.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/DSP.lef.
+This action cannot be undone.
+LEF read: Processed 7160 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/LUT4AB.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/LUT4AB.lef.
+This action cannot be undone.
+LEF read: Processed 4891 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_DSP.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_DSP.lef.
+This action cannot be undone.
+LEF read: Processed 1537 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_RAM_IO.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_RAM_IO.lef.
+This action cannot be undone.
+LEF read: Processed 1203 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single.lef.
+This action cannot be undone.
+LEF read: Processed 1541 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single2.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single2.lef.
+This action cannot be undone.
+LEF read: Processed 1521 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RAM_IO.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RAM_IO.lef.
+This action cannot be undone.
+LEF read: Processed 3971 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RegFile.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RegFile.lef.
+This action cannot be undone.
+LEF read: Processed 4855 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_DSP.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_DSP.lef.
+This action cannot be undone.
+LEF read: Processed 1536 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_RAM_IO.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_RAM_IO.lef.
+This action cannot be undone.
+LEF read: Processed 1206 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single.lef.
+This action cannot be undone.
+LEF read: Processed 1537 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single2.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single2.lef.
+This action cannot be undone.
+LEF read: Processed 1523 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/W_IO.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/W_IO.lef.
+This action cannot be undone.
+LEF read: Processed 2151 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/eFPGA_Config.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/eFPGA_Config.lef.
+This action cannot be undone.
+LEF read: Processed 1223 lines.
+> lef read /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef
+Reading LEF data from file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef.
+This action cannot be undone.
+LEF read: Processed 1093 lines.
+> def read /mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/53-odb-cellfrequencytables/efpga_core.def -noblockage
+Reading DEF data from file /mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/53-odb-cellfrequencytables/efpga_core.def.
+This action cannot be undone.
+  Processed 12 vias total.
+  Processed 117802 subcell instances total.
+  Processed 91 pins total.
+  Processed 4 special nets total.
+  Processed 35107 nets total.
+DEF read: Processed 268746 lines.
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+Extracting sky130_ef_sc_hd__decap_40_12 into sky130_ef_sc_hd__decap_40_12.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__fill_4 into sky130_fd_sc_hd__fill_4.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__fill_8 into sky130_fd_sc_hd__fill_8.ext:
+Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
+Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting sky130_fd_sc_hd__buf_12 into sky130_fd_sc_hd__buf_12.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__and2_2 into sky130_fd_sc_hd__and2_2.ext:
+Extracting sky130_fd_sc_hd__dfxtp_4 into sky130_fd_sc_hd__dfxtp_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_4 into sky130_fd_sc_hd__clkbuf_4.ext:
+Extracting sky130_fd_sc_hd__mux2_4 into sky130_fd_sc_hd__mux2_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_8 into sky130_fd_sc_hd__clkbuf_8.ext:
+Extracting sky130_fd_sc_hd__dfxtp_2 into sky130_fd_sc_hd__dfxtp_2.ext:
+Extracting sky130_fd_sc_hd__dfxtp_1 into sky130_fd_sc_hd__dfxtp_1.ext:
+Extracting sky130_fd_sc_hd__mux2_1 into sky130_fd_sc_hd__mux2_1.ext:
+Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
+Extracting sky130_fd_sc_hd__buf_4 into sky130_fd_sc_hd__buf_4.ext:
+Extracting sky130_fd_sc_hd__buf_8 into sky130_fd_sc_hd__buf_8.ext:
+Extracting sky130_fd_sc_hd__dlymetal6s2s_1 into sky130_fd_sc_hd__dlymetal6s2s_1.ext:
+Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
+Extracting sky130_fd_sc_hd__buf_6 into sky130_fd_sc_hd__buf_6.ext:
+Extracting sky130_fd_sc_hd__and2_1 into sky130_fd_sc_hd__and2_1.ext:
+Extracting W_IO into W_IO.ext:
+Extracting LUT4AB into LUT4AB.ext:
+Extracting sky130_fd_sc_hd__and2_4 into sky130_fd_sc_hd__and2_4.ext:
+Extracting S_term_single into S_term_single.ext:
+Extracting sky130_fd_sc_hd__nor2_8 into sky130_fd_sc_hd__nor2_8.ext:
+Extracting sky130_fd_sc_hd__nand2b_4 into sky130_fd_sc_hd__nand2b_4.ext:
+Extracting S_term_single2 into S_term_single2.ext:
+Extracting RegFile into RegFile.ext:
+Extracting sky130_fd_sc_hd__or2_4 into sky130_fd_sc_hd__or2_4.ext:
+Extracting sky130_fd_sc_hd__nor2_4 into sky130_fd_sc_hd__nor2_4.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__nand2_8 into sky130_fd_sc_hd__nand2_8.ext:
+Extracting sky130_fd_sc_hd__nand3b_4 into sky130_fd_sc_hd__nand3b_4.ext:
+Extracting sky130_fd_sc_hd__and3b_4 into sky130_fd_sc_hd__and3b_4.ext:
+Extracting sky130_fd_sc_hd__or3b_4 into sky130_fd_sc_hd__or3b_4.ext:
+Extracting S_term_DSP into S_term_DSP.ext:
+Extracting DSP into DSP.ext:
+Extracting sky130_fd_sc_hd__or3_4 into sky130_fd_sc_hd__or3_4.ext:
+Extracting sky130_fd_sc_hd__nor2_2 into sky130_fd_sc_hd__nor2_2.ext:
+Extracting sky130_fd_sc_hd__nor3b_1 into sky130_fd_sc_hd__nor3b_1.ext:
+Extracting sky130_fd_sc_hd__nor3b_4 into sky130_fd_sc_hd__nor3b_4.ext:
+Extracting S_term_RAM_IO into S_term_RAM_IO.ext:
+Extracting RAM_IO into RAM_IO.ext:
+Extracting sky130_fd_sc_hd__or4b_4 into sky130_fd_sc_hd__or4b_4.ext:
+Extracting sky130_fd_sc_hd__or4bb_4 into sky130_fd_sc_hd__or4bb_4.ext:
+Extracting BlockRAM_1KB into BlockRAM_1KB.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+Extracting eFPGA_Config into eFPGA_Config.ext:
+Extracting sky130_fd_sc_hd__mux2_8 into sky130_fd_sc_hd__mux2_8.ext:
+Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting N_term_single into N_term_single.ext:
+Extracting N_term_single2 into N_term_single2.ext:
+Extracting N_term_DSP into N_term_DSP.ext:
+Extracting N_term_RAM_IO into N_term_RAM_IO.ext:
+Extracting efpga_core into efpga_core.ext:
+efpga_core: 14450 errors
+Total of 14450 errors (check feedback entries).
+exttospice finished.

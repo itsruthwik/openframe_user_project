@@ -1,0 +1,90 @@
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (289.4800, 134.4300) - (289.5800, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (342.4950, 134.4300) - (342.5950, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (395.5100, 134.4300) - (395.6100, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (448.5250, 134.4300) - (448.6250, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (515.9800, 134.4300) - (516.0800, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (568.9950, 134.4300) - (569.0950, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (622.0100, 134.4300) - (622.1100, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (675.0250, 134.4300) - (675.1250, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (978.9800, 134.4300) - (979.0800, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1031.9950, 134.4300) - (1032.0950, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1085.0100, 134.4300) - (1085.1100, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1138.0250, 134.4300) - (1138.1250, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1205.4800, 134.4300) - (1205.5800, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1258.4950, 134.4300) - (1258.5950, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1311.5100, 134.4300) - (1311.6100, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1364.5250, 134.4300) - (1364.6250, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1683.4800, 134.4300) - (1683.5800, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1736.4950, 134.4300) - (1736.5950, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1789.5100, 134.4300) - (1789.6100, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1842.5250, 134.4300) - (1842.6250, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1911.9800, 134.4300) - (1912.0800, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (1964.9950, 134.4300) - (1965.0950, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (2018.0100, 134.4300) - (2018.1100, 134.5300) on Layer met4
+violation type: Unconnected node
+  srcs: net:vssd1
+    bbox = (2071.0250, 134.4300) - (2071.1250, 134.5300) on Layer met4
+violation type: Unconnected instance
+  srcs: inst:eFPGA_top_i.eFPGA_inst.Tile_X1Y15_S_term_single
+    bbox = (231.0000, 110.0000) - (454.5000, 160.0000) on Layer -
+violation type: Unconnected instance
+  srcs: inst:eFPGA_top_i.eFPGA_inst.Tile_X2Y15_S_term_single
+    bbox = (457.5000, 110.0000) - (681.0000, 160.0000) on Layer -
+violation type: Unconnected instance
+  srcs: inst:eFPGA_top_i.eFPGA_inst.Tile_X4Y15_S_term_single
+    bbox = (920.5000, 110.0000) - (1144.0000, 160.0000) on Layer -
+violation type: Unconnected instance
+  srcs: inst:eFPGA_top_i.eFPGA_inst.Tile_X5Y15_S_term_single
+    bbox = (1147.0000, 110.0000) - (1370.5000, 160.0000) on Layer -
+violation type: Unconnected instance
+  srcs: inst:eFPGA_top_i.eFPGA_inst.Tile_X7Y15_S_term_single
+    bbox = (1625.0000, 110.0000) - (1848.5000, 160.0000) on Layer -
+violation type: Unconnected instance
+  srcs: inst:eFPGA_top_i.eFPGA_inst.Tile_X8Y15_S_term_single
+    bbox = (1853.5000, 110.0000) - (2077.0000, 160.0000) on Layer -

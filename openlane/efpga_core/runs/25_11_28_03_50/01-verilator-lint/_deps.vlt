@@ -1,0 +1,7 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/tmp/4c58513c6fa14d7a8b413187b2689b4f.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/tmp/4c58513c6fa14d7a8b413187b2689b4f.bb.v"
+lint_off -rule UNDRIVEN -file "/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/tmp/87a5cb6ccb0b4fa2951398eb37393545.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/tmp/87a5cb6ccb0b4fa2951398eb37393545.bb.v"

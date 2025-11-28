@@ -1,0 +1,315 @@
+Reading library file at '/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib'…
+Reading extra library file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib'…
+Reading technology LEF file at '/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef'…
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+Reading cell LEF file at '/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+Reading cell LEF file at '/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 8 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/BlockRAM_1KB.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/BlockRAM_1KB.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/BlockRAM_1KB.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/DSP.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/DSP.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/DSP.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/LUT4AB.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/LUT4AB.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/LUT4AB.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_DSP.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_DSP.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_DSP.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_RAM_IO.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_RAM_IO.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_RAM_IO.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single2.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single2.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single2.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RAM_IO.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RAM_IO.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RAM_IO.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RegFile.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RegFile.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RegFile.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_DSP.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_DSP.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_DSP.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_RAM_IO.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_RAM_IO.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_RAM_IO.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single2.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single2.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single2.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/W_IO.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/W_IO.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/W_IO.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/eFPGA_Config.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/eFPGA_Config.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/eFPGA_Config.lef, created 1 library cells
+Reading extra LEF file at '/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef'…
+[INFO ODB-0227] LEF file: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef, created 1 library cells
+Reading top-level netlist at '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/06-yosys-synthesis/efpga_core.nl.v'…
+Linking design 'efpga_core' from netlist…
+Reading design constraints file at '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/base_user_project_wrapper.sdc'…
+[WARNING STA-0363] pin 'mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk' not found.
+[INFO]: Creating clock {clk} for mprj.ahb0_sys.clk_rst_manager.inst_to_wrap/clk with period: 40
+[WARNING STA-0366] port 'gpio_in[30]' not found.
+[WARNING STA-0450] virtual clock clk can not be propagated.
+[WARNING STA-0450] virtual clock jtag_clk can not be propagated.
+[INFO]: Setting clock uncertainity to: 0.25
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 1.5
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[WARNING STA-0366] port 'resetb_l' not found.
+[INFO]: Setting input ports external delay to: 0
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[WARNING STA-0366] port 'gpio_in[*]' not found.
+[INFO]: Setting output ports external delay to: 0
+[WARNING STA-0366] port 'gpio_out[*]' not found.
+[WARNING STA-0366] port 'gpio_oeb[*]' not found.
+[WARNING STA-0366] port 'gpio_oeb[*]' not found.
+[WARNING STA-0366] port 'gpio_out[*]' not found.
+Using site height: 2.72 and site width: 0.46…
+[INFO] Using absolute sizing for the floorplan.
+[INFO IFP-0001] Added 1286 rows of 6323 site unithd.
+[INFO IFP-0030] Inserted 0 tiecells using sky130_fd_sc_hd__conb_1/LO.
+[INFO IFP-0030] Inserted 0 tiecells using sky130_fd_sc_hd__conb_1/HI.
+[INFO] Extracting DIE_AREA and CORE_AREA from the floorplan
+[INFO] Floorplanned on a die area of 0.0 0.0 2920.0 3520.0 (µm).
+[INFO] Floorplanned on a core area of 5.52 10.88 2914.1 3508.8 (µm).
+Writing metric design__die__bbox: 0.0 0.0 2920.0 3520.0
+Writing metric design__core__bbox: 5.52 10.88 2914.1 3508.8
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+eFPGA_top_i.eFPGA_inst.Tile_X0Y1_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y1_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y2_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y2_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y3_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y3_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y4_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y4_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y5_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y5_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y6_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y6_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y7_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y7_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y8_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y8_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y9_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y9_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y10_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y10_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y11_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y11_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y12_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y12_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y13_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y13_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X0Y14_W_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X0Y14_W_IO
+eFPGA_top_i.eFPGA_inst.Tile_X1Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X1Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X1Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X1Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X2Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X2Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X2Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X2Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X3Y0_N_term_single2 matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y0_N_term_single2
+eFPGA_top_i.eFPGA_inst.Tile_X3Y1_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y1_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y2_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y2_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y3_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y3_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y4_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y4_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y5_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y5_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y6_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y6_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y7_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y7_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y8_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y8_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y9_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y9_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y10_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y10_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y11_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y11_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y12_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y12_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y13_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y13_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y14_RegFile matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y14_RegFile
+eFPGA_top_i.eFPGA_inst.Tile_X3Y15_S_term_single2 matched with eFPGA_top_i.eFPGA_inst.Tile_X3Y15_S_term_single2
+eFPGA_top_i.eFPGA_inst.Tile_X4Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X4Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X4Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X4Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X5Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X5Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X5Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X5Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X6Y0_N_term_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y0_N_term_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y1_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y1_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y3_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y3_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y5_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y5_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y7_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y7_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y9_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y9_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y11_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y11_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y13_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y13_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X6Y15_S_term_DSP matched with eFPGA_top_i.eFPGA_inst.Tile_X6Y15_S_term_DSP
+eFPGA_top_i.eFPGA_inst.Tile_X7Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X7Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X7Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X7Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X8Y0_N_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y0_N_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X8Y1_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y1_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y2_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y2_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y3_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y3_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y4_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y4_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y5_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y5_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y6_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y6_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y7_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y7_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y8_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y8_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y9_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y9_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y10_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y10_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y11_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y11_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y12_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y12_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y13_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y13_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y14_LUT4AB matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y14_LUT4AB
+eFPGA_top_i.eFPGA_inst.Tile_X8Y15_S_term_single matched with eFPGA_top_i.eFPGA_inst.Tile_X8Y15_S_term_single
+eFPGA_top_i.eFPGA_inst.Tile_X9Y0_N_term_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y0_N_term_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y1_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y1_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y2_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y2_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y3_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y3_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y4_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y4_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y5_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y5_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y6_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y6_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y7_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y7_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y8_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y8_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y9_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y9_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y10_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y10_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y11_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y11_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y12_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y12_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y13_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y13_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y14_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y14_RAM_IO
+eFPGA_top_i.eFPGA_inst.Tile_X9Y15_S_term_RAM_IO matched with eFPGA_top_i.eFPGA_inst.Tile_X9Y15_S_term_RAM_IO
+eFPGA_top_i.Inst_BlockRAM_6 matched with eFPGA_top_i.Inst_BlockRAM_6
+eFPGA_top_i.Inst_BlockRAM_5 matched with eFPGA_top_i.Inst_BlockRAM_5
+eFPGA_top_i.Inst_BlockRAM_4 matched with eFPGA_top_i.Inst_BlockRAM_4
+eFPGA_top_i.Inst_BlockRAM_3 matched with eFPGA_top_i.Inst_BlockRAM_3
+eFPGA_top_i.Inst_BlockRAM_2 matched with eFPGA_top_i.Inst_BlockRAM_2
+eFPGA_top_i.Inst_BlockRAM_1 matched with eFPGA_top_i.Inst_BlockRAM_1
+eFPGA_top_i.Inst_BlockRAM_0 matched with eFPGA_top_i.Inst_BlockRAM_0
+eFPGA_top_i.eFPGA_Config_inst matched with eFPGA_top_i.eFPGA_Config_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                   159 8134702.00
+  Buffer                                   56     280.27
+  Sequential cell                         448    9529.14
+  Multi-Input combinational cell          721    6971.69
+  Total                                  1384 8151483.09
+Writing OpenROAD database to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/13-openroad-floorplan/efpga_core.odb'…
+Writing netlist to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/13-openroad-floorplan/efpga_core.nl.v'…
+Writing powered netlist to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/13-openroad-floorplan/efpga_core.pnl.v'…
+Writing layout to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/13-openroad-floorplan/efpga_core.def'…
+Writing timing constraints to '/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/13-openroad-floorplan/efpga_core.sdc'…

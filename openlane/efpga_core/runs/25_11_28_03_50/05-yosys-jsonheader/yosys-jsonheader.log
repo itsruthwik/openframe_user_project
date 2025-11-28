@@ -1,0 +1,1212 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/tmp/4c58513c6fa14d7a8b413187b2689b4f.bb.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/runs/25_11_28_03_50/tmp/4c58513c6fa14d7a8b413187b2689b4f.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_20_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_40_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_60_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_80_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib
+Imported 1 cell types from liberty file.
+
+3. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib
+Imported 1 cell types from liberty file.
+
+4. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib
+Imported 1 cell types from liberty file.
+
+5. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib
+Imported 1 cell types from liberty file.
+
+6. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib
+Imported 1 cell types from liberty file.
+
+7. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib
+Imported 1 cell types from liberty file.
+
+8. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib
+Imported 1 cell types from liberty file.
+
+9. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib
+Imported 1 cell types from liberty file.
+
+10. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib
+Imported 1 cell types from liberty file.
+
+11. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib
+Imported 1 cell types from liberty file.
+
+12. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib
+Imported 1 cell types from liberty file.
+
+13. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib
+Imported 1 cell types from liberty file.
+
+14. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib
+Imported 1 cell types from liberty file.
+
+15. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib
+Imported 1 cell types from liberty file.
+
+16. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib
+Imported 1 cell types from liberty file.
+
+17. Executing Liberty frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib
+Imported 1 cell types from liberty file.
+
+18. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/BlockRAM_1KB.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/BlockRAM_1KB.v' to AST representation.
+Replacing existing blackbox module `\BlockRAM_1KB' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/BlockRAM_1KB.v:6.1-44.10.
+Generating RTLIL representation for module `\BlockRAM_1KB'.
+Successfully finished Verilog frontend.
+
+19. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/eFPGA_Config.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/eFPGA_Config.v' to AST representation.
+Replacing existing blackbox module `\eFPGA_Config' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/eFPGA_Config.v:5.1-53.10.
+Generating RTLIL representation for module `\eFPGA_Config'.
+Successfully finished Verilog frontend.
+
+20. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/sky130_sram_1kbyte_1rw1r_32x256_8.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/sky130_sram_1kbyte_1rw1r_32x256_8.v' to AST representation.
+Replacing existing blackbox module `\sky130_sram_1kbyte_1rw1r_32x256_8' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/sky130_sram_1kbyte_1rw1r_32x256_8.v:10.1-49.10.
+Generating RTLIL representation for module `\sky130_sram_1kbyte_1rw1r_32x256_8'.
+Successfully finished Verilog frontend.
+
+21. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/DSP/DSP.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/DSP/DSP.v' to AST representation.
+Replacing existing blackbox module `\DSP' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/DSP/DSP.v:6.1-95.10.
+Generating RTLIL representation for module `\DSP'.
+Successfully finished Verilog frontend.
+
+22. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/LUT4AB/LUT4AB.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/LUT4AB/LUT4AB.v' to AST representation.
+Replacing existing blackbox module `\LUT4AB' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/LUT4AB/LUT4AB.v:6.1-73.10.
+Generating RTLIL representation for module `\LUT4AB'.
+Successfully finished Verilog frontend.
+
+23. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_DSP/N_term_DSP.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_DSP/N_term_DSP.v' to AST representation.
+Replacing existing blackbox module `\N_term_DSP' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_DSP/N_term_DSP.v:6.1-36.10.
+Generating RTLIL representation for module `\N_term_DSP'.
+Successfully finished Verilog frontend.
+
+24. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_RAM_IO/N_term_RAM_IO.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_RAM_IO/N_term_RAM_IO.v' to AST representation.
+Replacing existing blackbox module `\N_term_RAM_IO' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_RAM_IO/N_term_RAM_IO.v:7.1-35.10.
+Generating RTLIL representation for module `\N_term_RAM_IO'.
+Successfully finished Verilog frontend.
+
+25. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single/N_term_single.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single/N_term_single.v' to AST representation.
+Replacing existing blackbox module `\N_term_single' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single/N_term_single.v:6.1-37.10.
+Generating RTLIL representation for module `\N_term_single'.
+Successfully finished Verilog frontend.
+
+26. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single2/N_term_single2.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single2/N_term_single2.v' to AST representation.
+Replacing existing blackbox module `\N_term_single2' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single2/N_term_single2.v:6.1-36.10.
+Generating RTLIL representation for module `\N_term_single2'.
+Successfully finished Verilog frontend.
+
+27. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RAM_IO/RAM_IO.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RAM_IO/RAM_IO.v' to AST representation.
+Replacing existing blackbox module `\RAM_IO' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RAM_IO/RAM_IO.v:7.1-105.10.
+Generating RTLIL representation for module `\RAM_IO'.
+Successfully finished Verilog frontend.
+
+28. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RegFile/RegFile.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RegFile/RegFile.v' to AST representation.
+Replacing existing blackbox module `\RegFile' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RegFile/RegFile.v:6.1-71.10.
+Generating RTLIL representation for module `\RegFile'.
+Successfully finished Verilog frontend.
+
+29. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_DSP/S_term_DSP.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_DSP/S_term_DSP.v' to AST representation.
+Replacing existing blackbox module `\S_term_DSP' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_DSP/S_term_DSP.v:6.1-36.10.
+Generating RTLIL representation for module `\S_term_DSP'.
+Successfully finished Verilog frontend.
+
+30. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_RAM_IO/S_term_RAM_IO.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_RAM_IO/S_term_RAM_IO.v' to AST representation.
+Replacing existing blackbox module `\S_term_RAM_IO' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_RAM_IO/S_term_RAM_IO.v:6.1-34.10.
+Generating RTLIL representation for module `\S_term_RAM_IO'.
+Successfully finished Verilog frontend.
+
+31. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single/S_term_single.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single/S_term_single.v' to AST representation.
+Replacing existing blackbox module `\S_term_single' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single/S_term_single.v:6.1-37.10.
+Generating RTLIL representation for module `\S_term_single'.
+Successfully finished Verilog frontend.
+
+32. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single2/S_term_single2.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single2/S_term_single2.v' to AST representation.
+Replacing existing blackbox module `\S_term_single2' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single2/S_term_single2.v:6.1-36.10.
+Generating RTLIL representation for module `\S_term_single2'.
+Successfully finished Verilog frontend.
+
+33. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/W_IO/W_IO.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/W_IO/W_IO.v' to AST representation.
+Replacing existing blackbox module `\W_IO' at /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/W_IO/W_IO.v:6.1-52.10.
+Generating RTLIL representation for module `\W_IO'.
+Successfully finished Verilog frontend.
+
+34. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v' to AST representation.
+Storing AST representation for module `$abstract\Frame_Data_Reg'.
+Successfully finished Verilog frontend.
+
+35. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v' to AST representation.
+Storing AST representation for module `$abstract\Frame_Select'.
+Successfully finished Verilog frontend.
+
+36. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/defines.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+37. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/dummy_modules.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/dummy_modules.v' to AST representation.
+Storing AST representation for module `$abstract\clk_buf'.
+Storing AST representation for module `$abstract\break_comb_loop'.
+Successfully finished Verilog frontend.
+
+38. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/eFPGA.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/eFPGA.v' to AST representation.
+Storing AST representation for module `$abstract\eFPGA'.
+Successfully finished Verilog frontend.
+
+39. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/eFPGA_top.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/eFPGA_top.v' to AST representation.
+Storing AST representation for module `$abstract\eFPGA_top'.
+Successfully finished Verilog frontend.
+
+40. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/efpga_core.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/efpga_core.v' to AST representation.
+Storing AST representation for module `$abstract\efpga_core'.
+Successfully finished Verilog frontend.
+
+41. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/models_pack.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/models_pack.v' to AST representation.
+Storing AST representation for module `$abstract\LHQD1'.
+Storing AST representation for module `$abstract\MUX4PTv4'.
+Storing AST representation for module `$abstract\MUX16PTv2'.
+Storing AST representation for module `$abstract\my_buf'.
+Storing AST representation for module `$abstract\cus_mux41'.
+Storing AST representation for module `$abstract\cus_mux41_buf'.
+Storing AST representation for module `$abstract\cus_mux21'.
+Storing AST representation for module `$abstract\cus_mux81'.
+Storing AST representation for module `$abstract\cus_mux81_buf'.
+Storing AST representation for module `$abstract\cus_mux161'.
+Storing AST representation for module `$abstract\cus_mux161_buf'.
+Successfully finished Verilog frontend.
+
+42. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/sky130_fd_sc_hd__inv.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/sky130_fd_sc_hd__inv.v' to AST representation.
+Storing AST representation for module `$abstract\sky130_fd_sc_hd__inv'.
+Successfully finished Verilog frontend.
+
+43. Executing Verilog-2005 frontend: /mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/user_defines.v
+Parsing SystemVerilog input from `/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/user_defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+44. Executing HIERARCHY pass (managing design hierarchy).
+
+45. Executing AST frontend in derive mode using pre-parsed AST for module `\efpga_core'.
+Generating RTLIL representation for module `\efpga_core'.
+
+45.1. Analyzing design hierarchy..
+Top module:  \efpga_core
+
+45.2. Executing AST frontend in derive mode using pre-parsed AST for module `\eFPGA_top'.
+Generating RTLIL representation for module `\eFPGA_top'.
+
+45.3. Analyzing design hierarchy..
+Top module:  \efpga_core
+Used module:     \eFPGA_top
+
+45.4. Executing AST frontend in derive mode using pre-parsed AST for module `\eFPGA'.
+Generating RTLIL representation for module `\eFPGA'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 9
+
+45.5. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 9
+Generating RTLIL representation for module `$paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 8
+
+45.6. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 8
+Generating RTLIL representation for module `$paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 7
+
+45.7. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 7
+Generating RTLIL representation for module `$paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 6
+
+45.8. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 6
+Generating RTLIL representation for module `$paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 5
+
+45.9. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 5
+Generating RTLIL representation for module `$paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 4
+
+45.10. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 4
+Generating RTLIL representation for module `$paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 3
+
+45.11. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 3
+Generating RTLIL representation for module `$paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 2
+
+45.12. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 2
+Generating RTLIL representation for module `$paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 1
+
+45.13. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 1
+Generating RTLIL representation for module `$paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 0
+
+45.14. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Select'.
+Parameter \MaxFramesPerCol = 20
+Parameter \FrameSelectWidth = 5
+Parameter \Col = 0
+Generating RTLIL representation for module `$paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 14
+
+45.15. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 14
+Generating RTLIL representation for module `$paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 13
+
+45.16. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 13
+Generating RTLIL representation for module `$paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 12
+
+45.17. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 12
+Generating RTLIL representation for module `$paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 11
+
+45.18. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 11
+Generating RTLIL representation for module `$paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 10
+
+45.19. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 10
+Generating RTLIL representation for module `$paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 9
+
+45.20. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 9
+Generating RTLIL representation for module `$paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 8
+
+45.21. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 8
+Generating RTLIL representation for module `$paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 7
+
+45.22. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 7
+Generating RTLIL representation for module `$paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 6
+
+45.23. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 6
+Generating RTLIL representation for module `$paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 5
+
+45.24. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 5
+Generating RTLIL representation for module `$paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 4
+
+45.25. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 4
+Generating RTLIL representation for module `$paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 3
+
+45.26. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 3
+Generating RTLIL representation for module `$paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 2
+
+45.27. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 2
+Generating RTLIL representation for module `$paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 1
+
+45.28. Executing AST frontend in derive mode using pre-parsed AST for module `\Frame_Data_Reg'.
+Parameter \FrameBitsPerRow = 32
+Parameter \RowSelectWidth = 5
+Parameter \Row = 1
+Generating RTLIL representation for module `$paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg'.
+
+45.29. Analyzing design hierarchy..
+Top module:  \efpga_core
+Used module:     \eFPGA_top
+Used module:         \eFPGA
+Used module:         $paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select
+Used module:         $paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select
+Used module:         $paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select
+Used module:         $paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select
+Used module:         $paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select
+Used module:         $paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select
+Used module:         $paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select
+Used module:         $paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select
+Used module:         $paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select
+Used module:         $paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select
+Used module:         $paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg
+Used module:         $paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg
+Used module:         $paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg
+Used module:         $paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg
+Used module:         $paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg
+Used module:         $paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg
+Used module:         $paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg
+Used module:         $paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg
+Used module:         $paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg
+Used module:         $paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg
+Used module:         $paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg
+Used module:         $paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg
+Used module:         $paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg
+Used module:         $paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg
+
+45.30. Analyzing design hierarchy..
+Top module:  \efpga_core
+Used module:     \eFPGA_top
+Used module:         \eFPGA
+Used module:         $paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select
+Used module:         $paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select
+Used module:         $paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select
+Used module:         $paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select
+Used module:         $paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select
+Used module:         $paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select
+Used module:         $paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select
+Used module:         $paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select
+Used module:         $paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select
+Used module:         $paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select
+Used module:         $paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg
+Used module:         $paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg
+Used module:         $paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg
+Used module:         $paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg
+Used module:         $paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg
+Used module:         $paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg
+Used module:         $paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg
+Used module:         $paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg
+Used module:         $paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg
+Used module:         $paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg
+Used module:         $paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg
+Used module:         $paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg
+Used module:         $paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg
+Used module:         $paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg
+Removing unused module `$abstract\sky130_fd_sc_hd__inv'.
+Removing unused module `$abstract\cus_mux161_buf'.
+Removing unused module `$abstract\cus_mux161'.
+Removing unused module `$abstract\cus_mux81_buf'.
+Removing unused module `$abstract\cus_mux81'.
+Removing unused module `$abstract\cus_mux21'.
+Removing unused module `$abstract\cus_mux41_buf'.
+Removing unused module `$abstract\cus_mux41'.
+Removing unused module `$abstract\my_buf'.
+Removing unused module `$abstract\MUX16PTv2'.
+Removing unused module `$abstract\MUX4PTv4'.
+Removing unused module `$abstract\LHQD1'.
+Removing unused module `$abstract\efpga_core'.
+Removing unused module `$abstract\eFPGA_top'.
+Removing unused module `$abstract\eFPGA'.
+Removing unused module `$abstract\break_comb_loop'.
+Removing unused module `$abstract\clk_buf'.
+Removing unused module `$abstract\Frame_Select'.
+Removing unused module `$abstract\Frame_Data_Reg'.
+Removed 19 unused modules.
+Renaming module efpga_core to efpga_core.
+
+46. Executing PROC pass (convert processes to netlists).
+
+46.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+46.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$10 in module $paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$7 in module $paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$4 in module $paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$1 in module $paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$13 in module $paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$28 in module $paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$25 in module $paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$22 in module $paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$19 in module $paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.
+Marked 1 switch rules as full_case in process $proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$16 in module $paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.
+Removed a total of 0 dead cases.
+
+46.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 10 assignments to connections.
+
+46.4. Executing PROC_INIT pass (extract init attributes).
+
+46.5. Executing PROC_ARST pass (detect async resets in processes).
+
+46.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~24 debug messages>
+
+46.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `$paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$10'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$7'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$4'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$1'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$13'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$57'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$55'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$53'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$51'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$49'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$47'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$45'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$43'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$41'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$39'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$37'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$35'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$33'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$31'.
+     1/1: $0\FrameData_O[31:0]
+Creating decoders for process `$paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$28'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$25'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$22'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$19'.
+     1/1: $1\FrameStrobe_O[19:0]
+Creating decoders for process `$paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$16'.
+     1/1: $1\FrameStrobe_O[19:0]
+
+46.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `$paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.\FrameStrobe_O' from process `$paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$10'.
+No latch inferred for signal `$paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.\FrameStrobe_O' from process `$paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$7'.
+No latch inferred for signal `$paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.\FrameStrobe_O' from process `$paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$4'.
+No latch inferred for signal `$paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.\FrameStrobe_O' from process `$paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$1'.
+No latch inferred for signal `$paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.\FrameStrobe_O' from process `$paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$13'.
+No latch inferred for signal `$paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.\FrameStrobe_O' from process `$paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$28'.
+No latch inferred for signal `$paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.\FrameStrobe_O' from process `$paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$25'.
+No latch inferred for signal `$paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.\FrameStrobe_O' from process `$paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$22'.
+No latch inferred for signal `$paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.\FrameStrobe_O' from process `$paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$19'.
+No latch inferred for signal `$paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.\FrameStrobe_O' from process `$paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$16'.
+
+46.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `$paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg.\FrameData_O' using process `$paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$57'.
+  created $dff cell `$procdff$117' with positive edge clock.
+Creating register for signal `$paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg.\FrameData_O' using process `$paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$55'.
+  created $dff cell `$procdff$118' with positive edge clock.
+Creating register for signal `$paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg.\FrameData_O' using process `$paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$53'.
+  created $dff cell `$procdff$119' with positive edge clock.
+Creating register for signal `$paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg.\FrameData_O' using process `$paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$51'.
+  created $dff cell `$procdff$120' with positive edge clock.
+Creating register for signal `$paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg.\FrameData_O' using process `$paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$49'.
+  created $dff cell `$procdff$121' with positive edge clock.
+Creating register for signal `$paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg.\FrameData_O' using process `$paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$47'.
+  created $dff cell `$procdff$122' with positive edge clock.
+Creating register for signal `$paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg.\FrameData_O' using process `$paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$45'.
+  created $dff cell `$procdff$123' with positive edge clock.
+Creating register for signal `$paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg.\FrameData_O' using process `$paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$43'.
+  created $dff cell `$procdff$124' with positive edge clock.
+Creating register for signal `$paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg.\FrameData_O' using process `$paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$41'.
+  created $dff cell `$procdff$125' with positive edge clock.
+Creating register for signal `$paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg.\FrameData_O' using process `$paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$39'.
+  created $dff cell `$procdff$126' with positive edge clock.
+Creating register for signal `$paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg.\FrameData_O' using process `$paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$37'.
+  created $dff cell `$procdff$127' with positive edge clock.
+Creating register for signal `$paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg.\FrameData_O' using process `$paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$35'.
+  created $dff cell `$procdff$128' with positive edge clock.
+Creating register for signal `$paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg.\FrameData_O' using process `$paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$33'.
+  created $dff cell `$procdff$129' with positive edge clock.
+Creating register for signal `$paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg.\FrameData_O' using process `$paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$31'.
+  created $dff cell `$procdff$130' with positive edge clock.
+
+46.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+46.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `$paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$10'.
+Removing empty process `$paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$10'.
+Found and cleaned up 1 empty switch in `$paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$7'.
+Removing empty process `$paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$7'.
+Found and cleaned up 1 empty switch in `$paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$4'.
+Removing empty process `$paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$4'.
+Found and cleaned up 1 empty switch in `$paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$1'.
+Removing empty process `$paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$1'.
+Found and cleaned up 1 empty switch in `$paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$13'.
+Removing empty process `$paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$13'.
+Found and cleaned up 1 empty switch in `$paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$57'.
+Removing empty process `$paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$57'.
+Found and cleaned up 1 empty switch in `$paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$55'.
+Removing empty process `$paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$55'.
+Found and cleaned up 1 empty switch in `$paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$53'.
+Removing empty process `$paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$53'.
+Found and cleaned up 1 empty switch in `$paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$51'.
+Removing empty process `$paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$51'.
+Found and cleaned up 1 empty switch in `$paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$49'.
+Removing empty process `$paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$49'.
+Found and cleaned up 1 empty switch in `$paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$47'.
+Removing empty process `$paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$47'.
+Found and cleaned up 1 empty switch in `$paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$45'.
+Removing empty process `$paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$45'.
+Found and cleaned up 1 empty switch in `$paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$43'.
+Removing empty process `$paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$43'.
+Found and cleaned up 1 empty switch in `$paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$41'.
+Removing empty process `$paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$41'.
+Found and cleaned up 1 empty switch in `$paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$39'.
+Removing empty process `$paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$39'.
+Found and cleaned up 1 empty switch in `$paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$37'.
+Removing empty process `$paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$37'.
+Found and cleaned up 1 empty switch in `$paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$35'.
+Removing empty process `$paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$35'.
+Found and cleaned up 1 empty switch in `$paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$33'.
+Removing empty process `$paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$33'.
+Found and cleaned up 1 empty switch in `$paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$31'.
+Removing empty process `$paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Data_Reg.v:15$31'.
+Found and cleaned up 1 empty switch in `$paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$28'.
+Removing empty process `$paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$28'.
+Found and cleaned up 1 empty switch in `$paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$25'.
+Removing empty process `$paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$25'.
+Found and cleaned up 1 empty switch in `$paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$22'.
+Removing empty process `$paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$22'.
+Found and cleaned up 1 empty switch in `$paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$19'.
+Removing empty process `$paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$19'.
+Found and cleaned up 1 empty switch in `$paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$16'.
+Removing empty process `$paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.$proc$/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Fabric/Frame_Select.v:16$16'.
+Cleaned up 24 empty switches.
+
+46.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module efpga_core.
+Optimizing module $paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.
+Optimizing module $paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.
+Optimizing module $paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.
+Optimizing module $paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.
+Optimizing module eFPGA.
+Optimizing module eFPGA_top.
+Optimizing module $paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.
+Optimizing module $paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg.
+Optimizing module $paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg.
+Optimizing module $paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg.
+Optimizing module $paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg.
+Optimizing module $paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg.
+Optimizing module $paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg.
+Optimizing module $paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg.
+Optimizing module $paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg.
+Optimizing module $paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg.
+Optimizing module $paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg.
+Optimizing module $paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg.
+Optimizing module $paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg.
+Optimizing module $paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg.
+Optimizing module $paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg.
+Optimizing module $paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.
+<suppressed ~1 debug messages>
+Optimizing module $paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.
+Optimizing module $paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.
+Optimizing module $paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.
+Optimizing module $paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.
+
+47. Executing FLATTEN pass (flatten design).
+Deleting now unused module $paramod$07a76cb8f206e816f1c6d5d478c16467ad9de809\Frame_Select.
+Deleting now unused module $paramod$7070fbbcfebb2cda5ee2ef5af6601adf93d82ad1\Frame_Select.
+Deleting now unused module $paramod$21bcffd8d849e9ce6b44d6f7e5f49dbf4675262b\Frame_Select.
+Deleting now unused module $paramod$b2ecbc93265e0b38e6705929c427180b82d8ff71\Frame_Select.
+Deleting now unused module eFPGA.
+Deleting now unused module eFPGA_top.
+Deleting now unused module $paramod$e8fd28e07f6b2cf0a01ced161b1208605273f67d\Frame_Select.
+Deleting now unused module $paramod$7d768d404f653ef5dc83a6e5f3bb676f93aeeb73\Frame_Data_Reg.
+Deleting now unused module $paramod$cc4f641948864a0c4207cf6701c72eb1ccbf3ce8\Frame_Data_Reg.
+Deleting now unused module $paramod$59f0861204deb350b5447d5dc528684d06b74228\Frame_Data_Reg.
+Deleting now unused module $paramod$e0eebe5b5dd0d8e0d405abf0dbb9ef0c721a803d\Frame_Data_Reg.
+Deleting now unused module $paramod$2576d64690a67c1c7c2746eb6a939f61d025e4c0\Frame_Data_Reg.
+Deleting now unused module $paramod$a1e712efb304de7885099cb23065439df895e92e\Frame_Data_Reg.
+Deleting now unused module $paramod$0d1010a92b03bfa12167317a927789417f5b3b78\Frame_Data_Reg.
+Deleting now unused module $paramod$a65579d6c961f7bd67d173535aad86cf0b58d65d\Frame_Data_Reg.
+Deleting now unused module $paramod$7eab5ada9c1ea88f812d069a56251476ef25e097\Frame_Data_Reg.
+Deleting now unused module $paramod$0d8e3e925ec799022aa3c11ff566b726dfcdc44f\Frame_Data_Reg.
+Deleting now unused module $paramod$8a04d1adf8e8de3ad2e35a8d59763aebc64c7cb8\Frame_Data_Reg.
+Deleting now unused module $paramod$da3220a5086fe353f32dfefde517c1db820e266a\Frame_Data_Reg.
+Deleting now unused module $paramod$15854df134fa91b3e8a5b6b048c141d405ff5bdd\Frame_Data_Reg.
+Deleting now unused module $paramod$cca5cab30566aefade7b9b07d513eb829d6dd636\Frame_Data_Reg.
+Deleting now unused module $paramod$743c767e021754d8d83130b63b4b41a17bbe39e7\Frame_Select.
+Deleting now unused module $paramod$141cb76be0898c01084159e2335f46b918d15cd3\Frame_Select.
+Deleting now unused module $paramod$0d66c9fb5383fba3598980af4524c2666568063b\Frame_Select.
+Deleting now unused module $paramod$ec1a7a34f97034bbedfea577ec005ac7f2972002\Frame_Select.
+Deleting now unused module $paramod$a7777ea750bba6d0a09cda34c12ee574f2a3a0b4\Frame_Select.
+<suppressed ~26 debug messages>
+
+48. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \efpga_core..
+Removed 26 unused cells and 575 unused wires.
+<suppressed ~534 debug messages>

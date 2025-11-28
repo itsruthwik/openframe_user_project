@@ -1,0 +1,234 @@
+{
+    "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+    "VDD_PIN": "VPWR",
+    "VDD_PIN_VOLTAGE": 1.8,
+    "GND_PIN": "VGND",
+    "WIRE_LENGTH_THRESHOLD": null,
+    "TECH_LEFS": {
+        "nom_*": "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef",
+        "min_*": "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef",
+        "max_*": "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef"
+    },
+    "GPIO_PADS_LEF": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lef/sky130_fd_io.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lef/sky130_ef_io.lef"
+    ],
+    "GPIO_PADS_LEF_CORE_SIDE": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.tech/openlane/custom_cells/lef/sky130_fd_io_core.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.tech/openlane/custom_cells/lef/sky130_ef_io_core.lef"
+    ],
+    "GPIO_PADS_VERILOG": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v"
+    ],
+    "GPIO_PAD_CELLS": [
+        "sky130_fd_io*",
+        "sky130_ef_io*"
+    ],
+    "PRIMARY_GDSII_STREAMOUT_TOOL": "magic",
+    "DEFAULT_MAX_TRAN": null,
+    "SIGNAL_WIRE_RC_LAYERS": null,
+    "CLOCK_WIRE_RC_LAYERS": null,
+    "DEFAULT_CORNER": "nom_tt_025C_1v80",
+    "STA_CORNERS": [
+        "nom_tt_025C_1v80",
+        "nom_ss_100C_1v60",
+        "nom_ff_n40C_1v95",
+        "min_tt_025C_1v80",
+        "min_ss_100C_1v60",
+        "min_ff_n40C_1v95",
+        "max_tt_025C_1v80",
+        "max_ss_100C_1v60",
+        "max_ff_n40C_1v95"
+    ],
+    "FP_TRACKS_INFO": "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info",
+    "FP_TAPCELL_DIST": 13,
+    "FP_IO_HLAYER": "met3",
+    "FP_IO_VLAYER": "met2",
+    "RT_MIN_LAYER": "met1",
+    "RT_MAX_LAYER": "met4",
+    "SCL_GROUND_PINS": [
+        "VGND",
+        "VNB"
+    ],
+    "SCL_POWER_PINS": [
+        "VPWR",
+        "VPB"
+    ],
+    "TRISTATE_CELLS": [
+        "sky130_fd_sc_hd__ebuf*"
+    ],
+    "FILL_CELL": [
+        "sky130_fd_sc_hd__fill*"
+    ],
+    "DECAP_CELL": [
+        "sky130_ef_sc_hd__decap_40_12"
+    ],
+    "LIB": {
+        "*_tt_025C_1v80": [
+            "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+        ],
+        "*_ss_100C_1v60": [
+            "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib"
+        ],
+        "*_ff_n40C_1v95": [
+            "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib"
+        ]
+    },
+    "CELL_LEFS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef"
+    ],
+    "CELL_GDS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds"
+    ],
+    "CELL_VERILOG_MODELS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/verilog/primitives.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd.v"
+    ],
+    "CELL_BB_VERILOG_MODELS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd__blackbox.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd__blackbox_pp.v"
+    ],
+    "CELL_SPICE_MODELS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_20_12.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_40_12.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_60_12.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_80_12.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_2.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice",
+        "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice"
+    ],
+    "SYNTH_EXCLUDED_CELL_FILE": "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells",
+    "PNR_EXCLUDED_CELL_FILE": "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/drc_exclude.cells",
+    "OUTPUT_CAP_LOAD": 33.442,
+    "MAX_FANOUT_CONSTRAINT": 10,
+    "MAX_TRANSITION_CONSTRAINT": 1.5,
+    "MAX_CAPACITANCE_CONSTRAINT": 0.2,
+    "CLOCK_UNCERTAINTY_CONSTRAINT": 0.25,
+    "CLOCK_TRANSITION_CONSTRAINT": 0.15,
+    "TIME_DERATING_CONSTRAINT": 5,
+    "IO_DELAY_CONSTRAINT": 20,
+    "SYNTH_DRIVING_CELL": "sky130_fd_sc_hd__inv_2/Y",
+    "SYNTH_CLK_DRIVING_CELL": null,
+    "SYNTH_TIEHI_CELL": "sky130_fd_sc_hd__conb_1/HI",
+    "SYNTH_TIELO_CELL": "sky130_fd_sc_hd__conb_1/LO",
+    "SYNTH_BUFFER_CELL": "sky130_fd_sc_hd__buf_2/A/X",
+    "WELLTAP_CELL": "sky130_fd_sc_hd__tapvpwrvgnd_1",
+    "ENDCAP_CELL": "sky130_fd_sc_hd__decap_3",
+    "PLACE_SITE": "unithd",
+    "CELL_PAD_EXCLUDE": [
+        "sky130_fd_sc_hd__tap*",
+        "sky130_fd_sc_hd__decap*",
+        "sky130_ef_sc_hd__decap*",
+        "sky130_fd_sc_hd__fill*"
+    ],
+    "DIODE_CELL": "sky130_fd_sc_hd__diode_2/DIODE",
+    "DESIGN_DIR": "/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core",
+    "PDK_ROOT": "/mnt/vault0/rsunketa/openframe_user_project/dependencies/pdks",
+    "DESIGN_NAME": "efpga_core",
+    "PDK": "sky130A",
+    "CLOCK_PERIOD": 40,
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "clk",
+    "VDD_NETS": [
+        "vccd1"
+    ],
+    "GND_NETS": [
+        "vssd1"
+    ],
+    "DIE_AREA": [
+        0,
+        0,
+        2920,
+        3520
+    ],
+    "EXTRA_EXCLUDED_CELLS": null,
+    "MACROS": null,
+    "EXTRA_LEFS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/BlockRAM_1KB.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/DSP.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/LUT4AB.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_DSP.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_RAM_IO.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/N_term_single2.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RAM_IO.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/RegFile.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_DSP.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_RAM_IO.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/S_term_single2.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/W_IO.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/eFPGA_Config.lef",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
+    ],
+    "EXTRA_VERILOG_MODELS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/BlockRAM_1KB.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/eFPGA_Config.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/BB/sky130_sram_1kbyte_1rw1r_32x256_8.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/DSP/DSP.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/LUT4AB/LUT4AB.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_DSP/N_term_DSP.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_RAM_IO/N_term_RAM_IO.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single/N_term_single.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/N_term_single2/N_term_single2.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RAM_IO/RAM_IO.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/RegFile/RegFile.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_DSP/S_term_DSP.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_RAM_IO/S_term_RAM_IO.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single/S_term_single.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/S_term_single2/S_term_single2.v",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/verilog/rtl/Tile/W_IO/W_IO.v"
+    ],
+    "EXTRA_SPICE_MODELS": null,
+    "EXTRA_LIBS": [
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/BlockRAM_1KB.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/DSP.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/LUT4AB.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_DSP.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_RAM_IO.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/N_term_single2.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RAM_IO.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/RegFile.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_DSP.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_RAM_IO.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/S_term_single2.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/W_IO.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/eFPGA_Config.lib",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib"
+    ],
+    "EXTRA_GDS_FILES": [
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/BlockRAM_1KB.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/DSP.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/LUT4AB.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/N_term_DSP.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/N_term_RAM_IO.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/N_term_single.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/N_term_single2.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/RAM_IO.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/RegFile.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/S_term_DSP.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/S_term_RAM_IO.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/S_term_single.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/S_term_single2.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/W_IO.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/eFPGA_Config.gds",
+        "/mnt/vault0/rsunketa/openframe_user_project/efpga_core/macro/gds/sky130_sram_1kbyte_1rw1r_32x256_8.gds"
+    ],
+    "FALLBACK_SDC_FILE": "/mnt/vault0/rsunketa/openframe_user_project/openlane/efpga_core/base_user_project_wrapper.sdc",
+    "TIMING_VIOLATION_CORNERS": [
+        "*tt*"
+    ],
+    "MAX_CAP_VIOLATION_CORNERS": [
+        ""
+    ],
+    "meta": {
+        "librelane_version": "2.4.6",
+        "step": "Checker.MaxCapViolations"
+    }
+}
